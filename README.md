@@ -1,3 +1,3 @@
 # cursoHTMLAvanzado
----> Filtros
----> Animaciones
+## ---> Filtros
+## ---> Animaciones

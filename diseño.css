@@ -15,3 +15,7 @@ div {
   background-image:url(images.jpeg);
   background-size:cover
 }
+
+#objeto {
+  visibility: hidden
+}

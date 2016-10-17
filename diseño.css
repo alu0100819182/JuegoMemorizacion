@@ -1,5 +1,6 @@
 div {
-  width: 100px;
-  height: 100px;
+  width: 250px;
+  height: 250px;
   background-image: url(images.jpeg);
+  margin: 10px;
 }

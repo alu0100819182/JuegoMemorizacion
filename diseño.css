@@ -3,4 +3,5 @@ div {
   height: 250px;
   background-image: url(images.jpeg);
   margin: 10px;
+  display: inline-block;
 }

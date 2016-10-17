@@ -6,3 +6,13 @@ img {
   border-width: 10px;
   border-color: green
 }
+
+div {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  display: inline;
+  border-width: 10px;
+  border-color: green;
+  background-image:url(images.jpg)
+}

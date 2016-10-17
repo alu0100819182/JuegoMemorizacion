@@ -12,5 +12,6 @@ div {
   height: 100px;
   margin: 20px;
   display: inline;
-  background-image:url(images.jpeg)
+  background-image:url(images.jpeg);
+  background-size:cover
 }

@@ -3,5 +3,6 @@ img {
   height: 100px;
   margin: 10px;
   display: inline;
-  border: 5px
+  border-width: 10px;
+  border-color: green
 }

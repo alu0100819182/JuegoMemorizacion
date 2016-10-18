@@ -14,3 +14,9 @@ a {
   max-width: 480px;
   margin: auto;
 }
+
+.ba-slider {
+  width: 480px;
+  margin: auto;
+  border: 5px solid #000;
+}

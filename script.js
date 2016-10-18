@@ -4,3 +4,5 @@ $(document).ready(function() {
     autoplaySpeed: 3000,
   });
 });
+
+$('.ba-slider').beforeAfter();

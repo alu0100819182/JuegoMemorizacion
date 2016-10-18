@@ -19,6 +19,7 @@
   <script src="https://cdn.rawgit.com/jotform/before-after.js/master/before-after.min.js"></script>
   <link href=" https://cdn.rawgit.com/jotform/before-after.js/master/before-after.min.css" rel="stylesheet" type="text/css">
   <script src="https://rawgit.com/vctrfrnndz/jquery-accordion/master/js/jquery.accordion.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ouibounce/0.0.11/ouibounce.min.js"></script>
 </head>
 <body>
   <!--Filtros y animaciones
@@ -49,13 +50,26 @@
     <span class="handle"></span>
   </div>
   -->
-  <div data-accordion-group>
-    <div class="accordion" data-accordion>
-      <div data-control>Control</div>
-      <div data-content>
-        <div>Contenido</div>
-      </div>
-    </div>
-  </div>
+  <!--Acordeon
+ <div data-accordion-group>
+   <div class="accordion" data-accordion>
+     <div data-control>Control</div>
+     <div data-content>
+       <div>Contenido</div>
+     </div>
+   </div>
+ </div>
+-->
+ <div id="modal-card">
+ <h4>¡Oye, tú!</h4>
+ <p>¿Ya te vas? Déjame tu e-mail, y te envío un ebook gratis:</p>
+ <form action="/send/" method="post">
+  <input type="text" name="email" required placeholder="tuemail@gmail.com">
+  <input type="submit" value="▶">
+ </form>
+ <a href="#" onClick="document.getElementById('modal-card').remove()">Sí, tío. Bye.</a>
+ <!-- Fondo gris -->
+ <div class="modal-background"></div>
+ </div>
 </body>
 </html>

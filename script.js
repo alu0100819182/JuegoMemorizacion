@@ -4,6 +4,10 @@ $(document).ready(function() {
     autoplaySpeed: 3000,
   });
   $('.ba-slider').beforeAfter();
+  $('.accordion').accordion({
+    transitionSpeed: 400,
+    transitionEasing: 'ease' 
+  });
 });
 
 

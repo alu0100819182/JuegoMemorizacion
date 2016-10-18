@@ -10,14 +10,24 @@
   });
 });*/
 
-$(document).ready(function() {
+/*$(document).ready(function() {
    ouibounce(document.getElementById('modal-card'), {
     aggressive: true,
     timer:5
    });
-});
+});*/
 
-/*var modal = ouibounce(...);
-setTimeout(function() { modal.fire() }, 5000);*/
+function mensaje() {
+  swal({
+    title: 'Título',
+    text: 'Mensaje de texto',
+    html: '<p>Mensaje de texto con <strong>formato</strong>.</p>',
+    type: 'success',
+    timer: 3000,
+  });
+}
+
+
+
 
 

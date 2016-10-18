@@ -15,7 +15,7 @@ ouibounce(document.getElementById('modal-card'), {
   timer:5
 });
 
-var modal = ouibounce(...);
-setTimeout(function() { modal.fire() }, 5000);
+/*var modal = ouibounce(...);
+setTimeout(function() { modal.fire() }, 5000);*/
 
 

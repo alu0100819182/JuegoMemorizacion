@@ -14,6 +14,7 @@ $(document).ready(function() {
    $('.modal-card').ouibounce({
     aggressive: true,
     timer:5
+   });
 });
 
 /*var modal = ouibounce(...);

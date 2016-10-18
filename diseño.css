@@ -8,6 +8,15 @@ img {
   display: inline
 }
 
+div {
+ width: 100px;
+ height: 100px;
+ margin: 20px;
+ display: inline-block;
+ background-image:url(images.jpeg);
+ background-size:cover
+}
+
 a {
   margin: 50px
 }

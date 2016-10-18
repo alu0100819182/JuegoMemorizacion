@@ -11,3 +11,8 @@ img {
 a {
   margin: 50px
 }
+
+.slider {
+  max-width: 480px;
+  margin: auto;
+}

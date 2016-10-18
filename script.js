@@ -11,7 +11,7 @@
 });*/
 
 $(document).ready(function() {
-   $('.modal-card').ouibounce({
+   ouibounce(document.getElementById('modal-card'), {
     aggressive: true,
     timer:5
    });

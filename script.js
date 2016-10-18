@@ -3,6 +3,7 @@ $(document).ready(function() {
     autoplay: true,
     autoplaySpeed: 3000,
   });
+  $('.ba-slider').beforeAfter();
 });
 
-$('.ba-slider').beforeAfter();
+

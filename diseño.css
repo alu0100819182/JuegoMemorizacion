@@ -42,3 +42,26 @@ color: #888;
 content: '⊟ ';
 color: #444;
 }
+
+#modal-card {
+border: 1px solid #888;
+margin: 2px auto;
+width: 400px;
+padding: 25px;
+box-shadow: 2px 2px 10px RGBA(0,0,0, .5);
+background: #FFF;
+text-align: center;
+display: none;
+}
+
+.modal-background {
+background: RGBA(0,0,0, .5);
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+z-index: -5;
+}
+
+

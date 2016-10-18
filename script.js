@@ -17,6 +17,7 @@
    });
 });*/
 
+/* Alertas
 function mensaje() {
   swal({
     title: 'Título',
@@ -31,6 +32,14 @@ function mensaje() {
       function() { swal('¡Aceptado!') },
       function() { swal('¡Cancelado!') }
   );
+}
+*/
+
+function mensaje() {
+  humane.log('Mensaje de texto', {
+    timeout: 4000,
+    clickToClose: true
+  });
 }
 
 

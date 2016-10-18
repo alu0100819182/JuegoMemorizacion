@@ -4,20 +4,8 @@ img {
   margin: 20px;
   display: inline;
   border-width: 10px;
-  border-color: green
-}
-
-div {
-  width: 100px;
-  height: 100px;
-  margin: 20px;
-  display: inline-block;
-  background-image:url(images.jpeg);
-  background-size:cover
-}
-
-#objeto {
-  visibility: hidden
+  border-color: green;
+  display: inline-block
 }
 
 a {

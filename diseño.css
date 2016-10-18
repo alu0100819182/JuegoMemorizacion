@@ -19,3 +19,8 @@ div {
 #objeto {
   visibility: hidden
 }
+
+a {
+  display: inline-block;
+  margin: 20px
+}

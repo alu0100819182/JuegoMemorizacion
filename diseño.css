@@ -20,3 +20,25 @@ a {
   margin: auto;
   border: 5px solid #000;
 }
+
+[data-accordion] {
+border: 1px solid #888;
+margin: 2px;
+cursor: pointer;
+}
+
+[data-control] {
+background: #CCC;
+padding: 5px;
+}
+
+/* Decoración */
+.accordion [data-control]::before {
+content: '⊞ ';
+color: #888;
+}
+
+.accordion.open [data-control]::before {
+content: '⊟ ';
+color: #444;
+}

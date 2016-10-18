@@ -12,7 +12,7 @@ div {
  width: 100px;
  height: 100px;
  margin: 20px;
- display: inline-block;
+ display: block;
  background-image:url(images.jpeg);
  background-size:cover
 }

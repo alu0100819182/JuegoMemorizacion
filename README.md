@@ -1,4 +1,4 @@
-# Curso HTML Avanzado
+# Librerias para HTML
 ## ---> Filtros
 ## ---> Animaciones
 ## ---> Botones

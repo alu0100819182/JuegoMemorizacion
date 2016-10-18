@@ -35,12 +35,16 @@ function mensaje() {
 }
 */
 
+/* Alerta 2
 function mensaje() {
   humane.log('Mensaje de texto', {
     timeout: 4000,
     clickToClose: true
   });
 }
+*/
+
+
 
 
 

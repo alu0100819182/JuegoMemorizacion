@@ -5,3 +5,4 @@
 ## ---> Sliders
 ## ---> Acordeones HTML
 ## ---> Alertas y Notificaciones
+## ---> Cookies

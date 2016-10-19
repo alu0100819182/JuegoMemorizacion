@@ -65,7 +65,7 @@ left: 0;
 bottom: 0;
 right: 0;
 z-index: -5;
-}*/
+}
 
 .cookie-message {
   width: 200px;
@@ -77,5 +77,16 @@ z-index: -5;
 }
 .cookie-message p { color: #FFF }
 .cookie-message a { color: #2AF }
+*/
 
+.selectize-control {
+  font-family: 'Open Sans';
+}
+
+.selectize-input .item {
+  background: linear-gradient(steelblue, blue)!important;
+  border: 1px solid steelblue!important;
+  color: white!important;
+  border-radius: 5px;
+}
 

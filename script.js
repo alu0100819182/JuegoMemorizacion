@@ -62,21 +62,23 @@ $(document).ready(function() {
 });
 */
 
-$('#input-tags').selectize({
-  delimiter: ',',
-  persist: false,
-  create: function(input) {
-    return {
-      value: input,
-      text: input
+$(document).ready(function() {
+  $('#input-tags').selectize({
+    delimiter: ',',
+    persist: false,
+    create: function(input) {
+      return {
+        value: input,
+        text: input
+      }
     }
+  });
+
+  function viewTags() {
+    tags = document.getElementById('inputa-tags');
+    console.log(tags.value.split(','));
   }
 });
-
-function viewTags() {
-  tags = document.getElementById('inputa-tags');
-  console.log(tags.value.split(','));
-}
 
 
 

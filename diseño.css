@@ -88,6 +88,7 @@ z-index: -5;
 .cookie-message a { color: #2AF }
 */
 
+/* Tags
 .selectize-control {
   font-family: 'Open Sans';
 }
@@ -97,5 +98,12 @@ z-index: -5;
   border: 1px solid steelblue!important;
   color: white!important;
   border-radius: 5px;
+}
+*/
+
+div {
+  width: 100px:
+  heigth: 100px;
+  background-color: green;
 }
 

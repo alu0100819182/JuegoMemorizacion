@@ -7,3 +7,4 @@
 ## ---> Alertas y Notificaciones
 ## ---> Cookies
 ## ---> Autocompletado y tags
+## ---> Editores

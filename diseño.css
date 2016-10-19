@@ -1,4 +1,4 @@
-img {
+/*img {
   width: 100px;
   height: 100px;
   margin: 20px;
@@ -32,7 +32,6 @@ background: #CCC;
 padding: 5px;
 }
 
-/* Decoración */
 .accordion [data-control]::before {
 content: '⊞ ';
 color: #888;
@@ -62,7 +61,7 @@ left: 0;
 bottom: 0;
 right: 0;
 z-index: -5;
-}
+}*/
 
 .cookie-message {
   width: 200px;

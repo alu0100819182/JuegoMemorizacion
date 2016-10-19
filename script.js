@@ -84,7 +84,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   $('.editor').trumbowyg({
-    svgPath: 'Librerias-en-HTML/images/icons.svg', // path of icons.svg
+    svgPath: '/Librerias-en-HTML/images/icons.svg', // path of icons.svg
     // Habitualmente, se indica la ruta del SVG en este parámetro, pero
     // en codepen, simplemente pegaremos el contenido del SVG en la parte
     // del código HTML

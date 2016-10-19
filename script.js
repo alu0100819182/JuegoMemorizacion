@@ -44,12 +44,18 @@ function mensaje() {
 }
 */
 
+/* Cookies
 $(document).ready(function() {
   $('.cookie-message').cookieBar({
     closeButton: '.close'
   });
 });
+*/
 
+var input = document.getElementById('datos');
+  new Awesomplete(input, {
+    list: ["Ada", "Java", "JavaScript", "Brainfuck", "LOLCODE", "Node.js", "Ruby on Rails"]
+});
 
 
 

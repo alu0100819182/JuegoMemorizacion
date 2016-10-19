@@ -73,4 +73,12 @@ $('#input-tags').selectize({
   }
 });
 
+function viewTags() {
+  tags = document.getElementById('inputa-tags');
+  console.log(tags.value.split(','));
+}
+
+
+
+
 

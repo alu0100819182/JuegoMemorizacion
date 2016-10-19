@@ -7,4 +7,4 @@
 ## ---> Alertas y Notificaciones
 ## ---> Cookies
 ## ---> Autocompletado y tags
-## ---> Editores
+## ---> Editores y puntos de llegada

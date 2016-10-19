@@ -2,7 +2,8 @@ body {
   background-color: blue;
 }
 
-/*img {
+/* Filtros
+img {
   width: 100px;
   height: 100px;
   margin: 20px;
@@ -13,7 +14,9 @@ body {
 a {
   margin: 50px
 }
+*/
 
+/* Sliders
 .slider {
   max-width: 480px;
   margin: auto;
@@ -24,7 +27,9 @@ a {
   margin: auto;
   border: 5px solid #000;
 }
+*/
 
+/*Acordeon
 [data-accordion] {
 border: 1px solid #888;
 margin: 2px;
@@ -45,7 +50,9 @@ color: #888;
 content: '⊟ ';
 color: #444;
 }
+*/
 
+/*Notificaciones
 #modal-card {
 border: 1px solid #888;
 margin: 2px auto;
@@ -66,7 +73,9 @@ bottom: 0;
 right: 0;
 z-index: -5;
 }
+*/
 
+/*Cookies
 .cookie-message {
   width: 200px;
   top: auto;

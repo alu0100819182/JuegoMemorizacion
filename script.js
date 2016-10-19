@@ -93,7 +93,7 @@ $(document).ready(function() {
   $('.editor').trumbowyg({
     lang: 'es', // Idioma (es.min.js incluido)
     btns: [
-          ['bold', 'italic', 'underline', 'strikethrough'],
+          ['italic', 'underline', 'strikethrough', 'bold'],
           ['superscript', 'subscript'],
           ['justifyLeft', 'justifyCenter', 'justifyRight', 'justifyFull'],
           ['unorderedList', 'orderedList'],

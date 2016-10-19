@@ -62,6 +62,7 @@ $(document).ready(function() {
 });
 */
 
+/*Tags
 $(document).ready(function() {
   $('#input-tags').selectize({
     delimiter: ',',
@@ -79,6 +80,16 @@ $(document).ready(function() {
     console.log(tags.value.split(','));
   }
 });
+*/
+
+$('.editor').trumbowyg({
+    //svgPath: '/icons/icons.svg', // path of icons.svg
+    // Habitualmente, se indica la ruta del SVG en este parámetro, pero
+    // en codepen, simplemente pegaremos el contenido del SVG en la parte
+    // del código HTML
+});
+
+$('#trumbowyg').trumbowyg('html'); // Obtienes el HTML generado
 
 
 

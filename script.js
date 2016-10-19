@@ -52,6 +52,7 @@ $(document).ready(function() {
 });
 */
 
+/*Autocompletado
 $(document).ready(function() {
   var input = document.getElementById('datos');
     new Awesomplete(input, {
@@ -59,6 +60,17 @@ $(document).ready(function() {
       minChars: 1
   });
 });
+*/
 
+$('#input-tags').selectize({
+  delimiter: ',',
+  persist: false,
+  create: function(input) {
+    return {
+      value: input,
+      text: input
+    }
+  }
+});
 
 

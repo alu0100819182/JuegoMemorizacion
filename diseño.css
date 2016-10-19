@@ -64,4 +64,15 @@ right: 0;
 z-index: -5;
 }
 
+.cookie-message {
+  width: 200px;
+  top: auto;
+  left: auto;
+  bottom: 0;
+  right: 0;
+  background: #111 url(http://i.emezeta.com/img/cookiem.png) 245px 45px no-repeat;
+}
+.cookie-message p { color: #FFF }
+.cookie-message a { color: #2AF }
+
 

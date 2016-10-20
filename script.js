@@ -181,6 +181,7 @@ $(document).ready(function() {
 });
 */
 
+/* Tarjeta presentacion 3d
 $(document).ready(function() {
 	$('#card').flip({
   		axis: 'y',				
@@ -188,6 +189,16 @@ $(document).ready(function() {
   		speed: 500,				
 	});
 });
+*/
+
+var imgData = 'data:image/jpeg;base64,[...]';
+var doc = new jsPDF();
+doc.setFontSize(40);			
+doc.text(75, 25, 'Nyan Cat');	
+doc.addImage(imgData, 'JPEG', 15, 40, 180, 160);	
+doc.setFontSize(14);			
+doc.text(85, 215, 'Generado con jsPDF');
+doc.save('sample.pdf');			
 
 
 

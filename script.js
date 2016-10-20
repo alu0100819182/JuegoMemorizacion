@@ -150,6 +150,7 @@ $(document).ready(function() {
 });
 */
 
+/*Diagramas
 $(document).ready(function() {
 	var sample = 'Title: Esto es un título \n B-->C: Línea a rayas';
 	var diagram = Diagram.parse(sample);
@@ -157,7 +158,18 @@ $(document).ready(function() {
 		theme: 'hand'	// o 'simple'
 	});
 });
+*/
 
+$(document).ready(function() {
+	var sample = 'digraph g { a -> b; }';
+	var options = {
+	  format: 'svg'
+	}
+	var image = Viz(sample, options);
+	var main = document.getElementById('main');
+	main.innerHTML = image;		// SVG
+	main.appendChild(image);	// PNG
+});
 
 
 

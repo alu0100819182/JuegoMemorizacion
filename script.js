@@ -174,10 +174,10 @@ $(document).ready(function() {
 });
 */
 
-$(document).ready(function() {
-	var tabla = document.getElementById('tablesort');
-	new Tablesort(tabla);
-});
+
+var tabla = document.getElementById('tablesort');
+new Tablesort(tabla);
+
 
 
 

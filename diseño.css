@@ -109,6 +109,7 @@ z-index: -5;
 }
 */
 
+/*Graficas
 .chart {
   width: 600px;
   height: 400px;
@@ -117,6 +118,10 @@ z-index: -5;
 .chart .ct-series-c line, .chart .ct-series-c path {  
   stroke: #0F0;
 }
+*/
 
+table th.sort-up::after {
+  content:"⏷";
+}
 
 

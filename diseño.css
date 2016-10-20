@@ -114,8 +114,7 @@ z-index: -5;
   height: 400px;
 }
 
-#chart .ct-series-c line,   // puntos
-#chart .ct-series-c path {  // línea
+.chart .ct-series-c line, .chart .ct-series-c path {  
   stroke: #0F0;
 }
 

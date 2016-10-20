@@ -160,6 +160,7 @@ $(document).ready(function() {
 });
 */
 
+/*Grafos
 $(document).ready(function() {
 	var sample = 'digraph g { a -> b -> c -> a,d d -> a; }';
 	var options = {
@@ -171,7 +172,12 @@ $(document).ready(function() {
 	main.innerHTML = image;		// SVG
 	main.appendChild(image);	// PNG
 });
+*/
 
+$(document).ready(function() {
+	var tabla = document.getElementById('tablesort');
+	new Tablesort(tabla);
+});
 
 
 

@@ -101,9 +101,17 @@ z-index: -5;
 }
 */
 
+/*Waypoint
 #tres {
   width: 1000px;
   height: 50px;
   background-color: green;
 }
+*/
+
+.chart {
+  width: 600px;
+  height: 400px;
+}
+
 

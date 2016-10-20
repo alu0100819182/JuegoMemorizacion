@@ -161,7 +161,7 @@ $(document).ready(function() {
 */
 
 $(document).ready(function() {
-	var sample = 'digraph g { a -> b -> c -> d -> a; }';
+	var sample = 'digraph g { a -> b -> c -> a, d -> a; }';
 	var options = {
 	  format: 'svg'
 	}

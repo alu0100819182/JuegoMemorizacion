@@ -206,7 +206,7 @@ function downloadPDF() {
 
 $(document).ready(function() {
 	var PSV = PhotoSphereViewer({
-  		panorama:  'https://upload.wikimedia.org/wikipedia/commons/e/e7/Durango_Panoramica_360%C2%BA.jpg',
+  		panorama:  'http://wion.es/wp-content/uploads/2012/10/panoramico-360.jpg',
   		container: 'photosphere',
   		loading_img: 'https://media.giphy.com/media/TtZqlvHid7BjW/giphy.gif',
 	});

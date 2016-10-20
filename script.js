@@ -206,7 +206,7 @@ function downloadPDF() {
 
 $(document).ready(function() {
 	var PSV = PhotoSphereViewer({
-  		panorama:  'http://wion.es/wp-content/uploads/2012/10/panoramico-360.jpg',
+  		panorama:  '/images/panoramico-360.jgp',
   		container: 'photosphere',
   		loading_img: 'https://media.giphy.com/media/TtZqlvHid7BjW/giphy.gif',
 	});

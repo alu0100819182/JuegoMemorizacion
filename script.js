@@ -163,7 +163,8 @@ $(document).ready(function() {
 $(document).ready(function() {
 	var sample = 'digraph g { a -> b -> c -> a,d d -> a; }';
 	var options = {
-	  format: 'svg'
+	  format: 'svg';
+	  engine: 'circo'
 	}
 	var image = Viz(sample, options);
 	var main = document.getElementById('main');

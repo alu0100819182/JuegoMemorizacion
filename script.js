@@ -174,12 +174,20 @@ $(document).ready(function() {
 });
 */
 
+/*Tablas
 $(document).ready(function() {
 	var tabla = document.getElementById('tablesort');
 	new Tablesort(tabla);
 });
+*/
 
-
+$(document).ready(function() {
+	$('#card').flip({
+  		axis: 'y',				
+  		trigger: 'click',		
+  		speed: 500,				
+	});
+});
 
 
 

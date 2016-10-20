@@ -151,7 +151,7 @@ $(document).ready(function() {
 */
 
 $(document).ready(function() {
-	var sample = 'Title: Esto es un título';
+	var sample = 'Title: Esto es un título \n B-->C: Línea a rayas';
 	var diagram = Diagram.parse(sample);
 	diagram.drawSVG('diagram', {
 		theme: 'hand'	// o 'simple'

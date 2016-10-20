@@ -10,7 +10,7 @@
 ## ---> Autocompletados
 ## ---> Tags
 ## ---> Editores
-## ---> puntos de llegada
+## ---> Puntos de llegada
 ## ---> Graficas
 ## ---> Diagramas
 ## ---> Grafos 

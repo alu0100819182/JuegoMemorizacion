@@ -16,3 +16,4 @@
 ## ---> Grafos 
 ## ---> Tablas
 ## ---> Tarjetas presentacion 3D
+## ---> Imagenes panoramicas

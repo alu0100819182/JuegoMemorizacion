@@ -141,7 +141,7 @@ $(document).ready(function() {
   var options = {
     donut: true,
     donutWidth: 40,
-  }
+  };
 
   new Chartist.Pie('.chart', data, options);
 });

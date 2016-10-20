@@ -206,7 +206,7 @@ function downloadPDF() {
 
 $(document).ready(function() {
 	var PSV = PhotoSphereViewer({
-  		panorama:  '/images/panoramico-360.jgp',
+  		panorama:  '/Librerias-en-HTML/images/panoramico-360.jgp',
   		container: 'photosphere',
   		loading_img: 'https://media.giphy.com/media/TtZqlvHid7BjW/giphy.gif',
 	});

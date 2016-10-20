@@ -130,6 +130,7 @@ table th.sort-down::after {
 }
 */
 
+/*Tarjeta de presentacion 3d
 #card {
   width: 600px;
   height: 400px;
@@ -139,6 +140,13 @@ table th.sort-down::after {
 #card > img {
   border: 15px solid #FFF;
   box-shadow: 0 0 10px RGBA(0,0,0, .5);
+}
+*/
+
+#photosphere {
+  width: 600px;
+  height: 400px;
+  background: #DDD;
 }
 
 

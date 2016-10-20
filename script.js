@@ -191,14 +191,17 @@ $(document).ready(function() {
 });
 */
 
-var imgData = 'data:image/jpeg;base64,[...]';
-var doc = new jsPDF();
-doc.setFontSize(40);			
-doc.text(75, 25, 'Nyan Cat');	
-doc.addImage(imgData, 'JPEG', 15, 40, 180, 160);	
-doc.setFontSize(14);			
-doc.text(85, 215, 'Generado con jsPDF');
-doc.save('sample.pdf');			
-
+$(document).ready(function() {
+   function downloadPDF() {	
+	var imgData = 'data:image/jpeg;base64,[...]';
+	var doc = new jsPDF();
+	doc.setFontSize(40);			
+	doc.text(75, 25, 'Nyan Cat');	
+	doc.addImage(imgData, 'JPEG', 15, 40, 180, 160);	
+	doc.setFontSize(14);			
+	doc.text(85, 215, 'Generado con jsPDF');
+	doc.save('sample.pdf');
+   }
+});
 
 

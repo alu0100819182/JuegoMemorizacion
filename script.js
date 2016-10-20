@@ -206,8 +206,8 @@ function downloadPDF() {
 
 $(document).ready(function() {
 	var PSV = PhotoSphereViewer({
-  		panorama:  'URL_DE_LA_IMAGEN',
-  		container: 'ID_DEL_DIV_DONDE_IRA_LA_IMAGEN',
+  		panorama:  'https://upload.wikimedia.org/wikipedia/commons/e/e7/Durango_Panoramica_360%C2%BA.jpg',
+  		container: 'photosphere',
   		loading_img: 'https://media.giphy.com/media/TtZqlvHid7BjW/giphy.gif',
 	});
 });

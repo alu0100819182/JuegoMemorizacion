@@ -120,6 +120,7 @@ z-index: -5;
 }
 */
 
+/*Tablas
 table th.sort-up::after {
   content:"⏷";
 }
@@ -127,5 +128,11 @@ table th.sort-up::after {
 table th.sort-down::after {
   content:"⏶";
 }
+*/
 
+#card {
+  width: 600px;
+  height: 400px;
+  margin: auto;
+}
 

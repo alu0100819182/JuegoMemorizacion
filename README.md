@@ -4,9 +4,14 @@
 ## ---> Botones
 ## ---> Sliders
 ## ---> Acordeones HTML
-## ---> Alertas y Notificaciones
+## ---> Alertas
+## ---> Notificaciones
 ## ---> Cookies
-## ---> Autocompletado y tags
-## ---> Editores y puntos de llegada
-## ---> Graficas y Diagramas
-## ---> Grafos
+## ---> Autocompletados
+## ---> Tags
+## ---> Editores
+## ---> puntos de llegada
+## ---> Graficas
+## ---> Diagramas
+## ---> Grafos 
+## ---> Tablas

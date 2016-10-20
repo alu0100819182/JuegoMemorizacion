@@ -138,7 +138,10 @@ $(document).ready(function() {
    series: [20 ,10, 30, 40]
   };
 
-  var options = {}
+  var options = {
+    donut: true,
+    donutWidth: 40,
+  }
 
   new Chartist.Pie('.chart', data, options);
 });

@@ -191,6 +191,7 @@ $(document).ready(function() {
 });
 */
 
+/*PDFS
 function downloadPDF() {	
 	var imgData = 'data:image/jpeg;base64,[...]';
 	var doc = new jsPDF();
@@ -201,6 +202,6 @@ function downloadPDF() {
 	doc.text(85, 215, 'Generado con jsPDF');
 	doc.save('sample.pdf');
 }
-
+*/
 
 

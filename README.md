@@ -8,3 +8,4 @@
 ## ---> Cookies
 ## ---> Autocompletado y tags
 ## ---> Editores y puntos de llegada
+## ---> Graficas

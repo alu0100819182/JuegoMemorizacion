@@ -120,7 +120,7 @@ z-index: -5;
 }
 */
 
-table th.sort-up::after {
+.table th.sort-up::after {
   content:"⏷";
 }
 

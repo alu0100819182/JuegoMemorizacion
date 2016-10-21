@@ -214,7 +214,7 @@ $(document).ready(function() {
 });
 */
 
-$(document).ready(function() {
+window.addEventListener('DOMContentLoaded', function() {
 	impress().init();
 });
 

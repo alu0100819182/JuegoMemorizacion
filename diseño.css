@@ -143,10 +143,24 @@ table th.sort-down::after {
 }
 */
 
+/*Foto 360
 #photosphere {
   width: 600px;
   height: 400px;
   background: #DDD;
+}
+*/
+
+#first {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+}
+
+#second {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
 }
 
 

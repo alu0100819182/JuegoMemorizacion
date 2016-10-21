@@ -163,4 +163,10 @@ table th.sort-down::after {
   background-color: blue;
 }
 
+#overview {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+
 

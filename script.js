@@ -204,6 +204,7 @@ function downloadPDF() {
 }
 */
 
+/*Fotos 360
 $(document).ready(function() {
 	var PSV = PhotoSphereViewer({
   		panorama:  '/Librerias-en-HTML/images/panoramico-360.jpg',
@@ -211,6 +212,10 @@ $(document).ready(function() {
   		loading_img: 'https://media.giphy.com/media/TtZqlvHid7BjW/giphy.gif',
 	});
 });
+*/
 
+$(document).ready(function() {
+	impress().init();
+});
 
 

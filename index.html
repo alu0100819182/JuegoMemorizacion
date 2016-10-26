@@ -4,10 +4,15 @@
   <meta charset="UTF-8" />
   <title>Pruebita</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
+  <script src="https://rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
   <link href="diseño.css" rel="stylesheet" type="text/css">
   <script src="script.js" type="text/javascript"></script>
 </head>
 <body>
-
+  <div id="card">
+    <img class="front" src="https://i.imgsafe.org/6ded9cb87a.jpg">
+    <img class="back" src="https://i.imgsafe.org/6dee18226b.jpg">
+  </div>
+  <button onClick="$('#card').flip('toggle')">Girar</button>
 </body>
 </html>

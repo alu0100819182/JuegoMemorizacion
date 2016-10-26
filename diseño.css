@@ -1,10 +1,13 @@
 body {
-  background-color: red;
+  background-color: rgba(226, 241, 8, 0.87);
 }
 
 #card {
   width: 300px;
   height: 200px;
+  margin-left: 30px;
+  margin-right: 30px;
+  display: table-cell;
 }
 
 #card > img {
@@ -15,9 +18,16 @@ body {
 #carddos {
   width: 300px;
   height: 200px;
+  display: table-cell;
 }
 
 #carddos > img {
   border: 15px solid #FFF;
   box-shadow: 0 0 10px RGBA(0,0,0, .5);
+}
+
+button {
+  margin-top: 100px;
+  margin-right: 300px;
+  margin-left: 70px;
 }

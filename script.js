@@ -11,10 +11,16 @@ $(document).ready(function() {
   });
 });
 
-var tipo;
 var giro;
 var numeroGiro = 1;
 
-function igualar() {
-  console.log("hola");
+function carta1() {
+  this.tipo = this.id;
+  if(numeroGiro == 2) {
+    console.log("hola");
+  }
+  else {
+    giro = this.tipo;
+    numeroGiro++;
+  }
 }

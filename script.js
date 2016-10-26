@@ -7,7 +7,7 @@ $(document).ready(function() {
     axis: 'y', // 'x' para giro en eje X
     trigger: 'click', // 'hover': giro sobre tarjeta
     speed: 500, // Velocidad del giro
-    var propio = "manzanza";
+    var propio = 'manzanza';
     if(numeroGiro == 2) && (tipo == propio) {
       console.log("Bien");
     }

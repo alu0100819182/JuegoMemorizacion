@@ -14,7 +14,7 @@ $(document).ready(function() {
 var giro;
 var numeroGiro = 1;
 
-function carta1() {
+function carta() {
   this.tipo = this.id;
   if(numeroGiro == 2) {
     console.log("hola");

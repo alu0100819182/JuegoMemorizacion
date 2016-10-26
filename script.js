@@ -3,6 +3,7 @@ var giro;
 var numeroGiro = 1;
 
 $(document).ready(function() {
+  console.log("Empezamos");
   $('#card').flip({
     axis: 'y', // 'x' para giro en eje X
     trigger: 'click', // 'hover': giro sobre tarjeta

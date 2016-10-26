@@ -5,7 +5,6 @@ body {
 #card {
   width: 300px;
   height: 200px;
-  margin: auto;
 }
 
 #card > img {
@@ -16,7 +15,6 @@ body {
 #carddos {
   width: 300px;
   height: 200px;
-  margin: auto;
 }
 
 #carddos > img {

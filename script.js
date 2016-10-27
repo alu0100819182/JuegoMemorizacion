@@ -51,17 +51,22 @@ $(document).ready(function() {
   });
 });
 
+var parejas = 0;
 var giro;
 var numeroGiro = 1;
 
 function carta(enlace) {
   this.tipo = this.id;
-  if(numeroGiro == 2) {
-    console.log("hola");
-    enlace.disabled = true;
-  }
-  else {
-    giro = this.tipo;
-    numeroGiro++;
+  if(parejas <= 5) {
+    if(numeroGiro == 2) {
+      console.log("hola");
+      enlace.disabled = true;
+      numeroGiro = 1;
+      parejas++;
+    }
+    else {
+      giro = this.tipo;
+      numeroGiro++;
+    }
   }
 }

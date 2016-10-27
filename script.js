@@ -1,4 +1,8 @@
 $(document).ready(function() {
+  $('#clock').flipcountdown({
+    size: 'sm', // Tamaño grande
+    beforeDateTime: get.Hours() + ' ' + get.Minutues() + ' ' + get.Seconds(), // Fecha a contar
+  });
   $('#card').flip({
     axis: 'y', // 'x' para giro en eje X
     trigger: 'click', // 'hover': giro sobre tarjeta

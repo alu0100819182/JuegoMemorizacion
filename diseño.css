@@ -26,6 +26,30 @@ body {
   box-shadow: 0 0 10px RGBA(0,0,0, .5);
 }
 
+#cardtres {
+  width: 300px;
+  height: 200px;
+  margin-left: 30px;
+  margin-right: 30px;
+  display: table-cell;
+}
+
+#cardtres > img {
+  border: 15px solid #FFF;
+  box-shadow: 0 0 10px RGBA(0,0,0, .5);
+}
+
+#cardcuatro {
+  width: 300px;
+  height: 200px;
+  display: table-cell;
+}
+
+#cardcuatro > img {
+  border: 15px solid #FFF;
+  box-shadow: 0 0 10px RGBA(0,0,0, .5);
+}
+
 button {
   margin-top: 100px;
   margin-right: 300px;

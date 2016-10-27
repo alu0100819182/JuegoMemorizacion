@@ -19,6 +19,16 @@ $(document).ready(function() {
     trigger: 'click', // 'hover': giro sobre tarjeta
     speed: 500, // Velocidad del giro
   });
+   $('#cardcinco').flip({
+    axis: 'y', // 'x' para giro en eje X
+    trigger: 'click', // 'hover': giro sobre tarjeta
+    speed: 500, // Velocidad del giro
+  });
+   $('#cardseis').flip({
+    axis: 'y', // 'x' para giro en eje X
+    trigger: 'click', // 'hover': giro sobre tarjeta
+    speed: 500, // Velocidad del giro
+  });
 });
 
 var giro;

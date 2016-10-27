@@ -1,8 +1,8 @@
 $(document).ready(function() {
     $("#DateCountdown").TimeCircles({
-    "animation": "smooth",
-    "bg_width": 1.2,
-    "fg_width": 0.1,
+    "animation": "ticks",
+    "bg_width": 1.9,
+    "fg_width": 0.05,
     "circle_bg_color": "#60686F",
     "time": {
         "Days": {
@@ -17,12 +17,12 @@ $(document).ready(function() {
         },
         "Minutes": {
             "text": "Minutes",
-            "color": "#BBFFBB",
+            "color": "#fffbbb",
             "show": true
         },
         "Seconds": {
             "text": "Seconds",
-            "color": "#FF9999",
+            "color": "#ff99f3",
             "show": true
         }
     }

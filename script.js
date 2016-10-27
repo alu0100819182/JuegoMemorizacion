@@ -58,7 +58,8 @@ function carta() {
   this.tipo = this.id;
   if(numeroGiro == 2) {
     console.log("hola");
-    button.disabled = true;
+    var boton = getElementById(this.id);
+    boton.disabled = true;
   }
   else {
     giro = this.tipo;

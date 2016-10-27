@@ -27,6 +27,9 @@ $(document).ready(function() {
         }
     }
     });
+  $(".start").click(function(){ $(".example.stopwatch").TimeCircles().start(); });
+  $(".stop").click(function(){ $(".example.stopwatch").TimeCircles().stop(); });
+  $(".restart").click(function(){ $(".example.stopwatch").TimeCircles().restart(); });    
   $('#card').flip({
     axis: 'y', // 'x' para giro en eje X
     trigger: 'click', // 'hover': giro sobre tarjeta

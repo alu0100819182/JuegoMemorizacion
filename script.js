@@ -54,12 +54,11 @@ $(document).ready(function() {
 var giro;
 var numeroGiro = 1;
 
-function carta() {
+function carta(enlace) {
   this.tipo = this.id;
   if(numeroGiro == 2) {
     console.log("hola");
-    var boton = getElementById(this.id);
-    boton.disabled = true;
+    enlace.disabled = true;
   }
   else {
     giro = this.tipo;

@@ -1,10 +1,5 @@
 $(document).ready(function() {
-   var fiveSeconds = new Date().getTime() + 5000;
-   $('#clock').countdown(fiveSeconds, {elapse: true})
-    .on('update.countdown', function(event) {
-    var $this = $(this);
-    $this.html(event.strftime('To end: <span>%H:%M:%S</span>'));
-  });
+  $("#clock").sevenSeg({ value: 30 });
   $('#card').flip({
     axis: 'y', // 'x' para giro en eje X
     trigger: 'click', // 'hover': giro sobre tarjeta

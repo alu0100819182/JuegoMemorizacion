@@ -91,7 +91,7 @@ var acierto;
 function carta(enlace, tip, carta) {
   var fruta = tip;
   var cartita = carta;
-  var id = button.getAttribute('data-id');
+  var id = this.getAttribute('data-id');
   console.log(id);
   numeroGiro++;
   console.log(numeroGiro);

@@ -53,20 +53,26 @@ $(document).ready(function() {
 
 var parejas = 0;
 var giro;
-var numeroGiro = 1;
+var numeroGiro = 0;
 
 function carta(enlace) {
   this.tipo = this.id;
+  console.log(this.tipo);;
+  console.log(this.id);
+  numeroGiro++;
   if(parejas <= 5) {
-    if(numeroGiro == 2) {
-      console.log("hola");
+    if((numeroGiro == 2) && (this.tipo = giro)) {
+      console.log("Acierto");
       enlace.disabled = true;
-      numeroGiro = 1;
+      numeroGiro = 0;
       parejas++;
     }
     else {
-      giro = this.tipo;
-      numeroGiro++;
+      if(numeroGiro == 2) {
+        numeroGiro = 0;
+      }else {
+        giro = this.tipo;
+      }
     }
   }
 }

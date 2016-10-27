@@ -1,32 +1,5 @@
 $(document).ready(function() {
-    $("#DateCountdown").TimeCircles({
-    "animation": "ticks",
-    "bg_width": 2.2,
-    "fg_width": 0.03666666666666667,
-    "circle_bg_color": "#60686F",
-    "time": {
-        "Days": {
-            "text": "Days",
-            "color": "#FFCC66",
-            "show": false
-        },
-        "Hours": {
-            "text": "Hours",
-            "color": "#99CCFF",
-            "show": false
-        },
-        "Minutes": {
-            "text": "Minutes",
-            "color": "#fffbbb",
-            "show": false
-        },
-        "Seconds": {
-            "text": "Seconds",
-            "color": "#ff999f",
-            "show": true
-        }
-    }
-    });
+  $(".example.stopwatch").TimeCircles();
   $(".start").click(function(){ $(".example.stopwatch").TimeCircles().start(); });
   $(".stop").click(function(){ $(".example.stopwatch").TimeCircles().stop(); });
   $(".restart").click(function(){ $(".example.stopwatch").TimeCircles().restart(); });    

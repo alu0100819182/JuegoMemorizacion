@@ -88,9 +88,9 @@ var giro = 'ninguna';
 var numeroGiro = 0;
 var acierto;
 
-function carta(enlace, tip) {
+function carta(enlace, tip, carta) {
   var fruta = tip;
-  console.log(this.id);
+  var cartita = carta;
   numeroGiro++;
   console.log(numeroGiro);
   if(parejas <= 5) {
@@ -103,6 +103,7 @@ function carta(enlace, tip) {
     else {
       if(numeroGiro == 2) {
         numeroGiro = 0;
+        $(cartita).flip('toggle');
       }else {
         giro = fruta;
       }

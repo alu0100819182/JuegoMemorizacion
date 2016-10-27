@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $('#clock').flipcountdown({
     size: 'sm', // Tamaño grande
-    beforeDateTime: get.Hours() + ' ' + get.Minutues() + ' ' + get.Seconds(), // Fecha a contar
+    beforeDateTime: '8/16/2016 20:11:00', // Fecha a contar
   });
   $('#card').flip({
     axis: 'y', // 'x' para giro en eje X

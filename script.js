@@ -19,12 +19,32 @@ $(document).ready(function() {
     trigger: 'click', // 'hover': giro sobre tarjeta
     speed: 500, // Velocidad del giro
   });
-   $('#cardcinco').flip({
+  $('#cardcinco').flip({
     axis: 'y', // 'x' para giro en eje X
     trigger: 'click', // 'hover': giro sobre tarjeta
     speed: 500, // Velocidad del giro
   });
-   $('#cardseis').flip({
+  $('#cardseis').flip({
+    axis: 'y', // 'x' para giro en eje X
+    trigger: 'click', // 'hover': giro sobre tarjeta
+    speed: 500, // Velocidad del giro
+  });
+  $('#cardsiete').flip({
+    axis: 'y', // 'x' para giro en eje X
+    trigger: 'click', // 'hover': giro sobre tarjeta
+    speed: 500, // Velocidad del giro
+  });
+  $('#cardocho').flip({
+    axis: 'y', // 'x' para giro en eje X
+    trigger: 'click', // 'hover': giro sobre tarjeta
+    speed: 500, // Velocidad del giro
+  });
+  $('#cardnueve').flip({
+    axis: 'y', // 'x' para giro en eje X
+    trigger: 'click', // 'hover': giro sobre tarjeta
+    speed: 500, // Velocidad del giro
+  });
+  $('#carddiez').flip({
     axis: 'y', // 'x' para giro en eje X
     trigger: 'click', // 'hover': giro sobre tarjeta
     speed: 500, // Velocidad del giro

@@ -102,7 +102,7 @@ function carta(enlace, tip) {
         numeroGiro = 0;
       }else {
         giro = fruta;
-        acierto = enlance;
+        acierto == enlance;
       }
     }
   }

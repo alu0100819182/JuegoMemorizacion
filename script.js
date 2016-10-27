@@ -90,7 +90,7 @@ function carta(enlace, tip) {
   console.log(giro);
   numeroGiro++;
   if(parejas <= 5) {
-    if((numeroGiro == 2) && (fruta = giro)) {
+    if((numeroGiro == 2) && (fruta == giro)) {
       console.log("Acierto");
       enlace.disabled = true;
       acierto.disabled = true;

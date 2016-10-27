@@ -9,6 +9,16 @@ $(document).ready(function() {
     trigger: 'click', // 'hover': giro sobre tarjeta
     speed: 500, // Velocidad del giro
   });
+  $('#cardtres').flip({
+    axis: 'y', // 'x' para giro en eje X
+    trigger: 'click', // 'hover': giro sobre tarjeta
+    speed: 500, // Velocidad del giro
+  });
+  $('#cardcuatro').flip({
+    axis: 'y', // 'x' para giro en eje X
+    trigger: 'click', // 'hover': giro sobre tarjeta
+    speed: 500, // Velocidad del giro
+  });
 });
 
 var giro;

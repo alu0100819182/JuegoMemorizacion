@@ -92,7 +92,7 @@ function carta(enlace, tip, carta) {
   var fruta = tip;
   var cartita = carta;
   numeroGiro++;
-  console.log(enlance);
+  console.log(enlace);
   if(parejas <= 5) {
     if((numeroGiro == 2) && (fruta == giro)) {
       console.log("Acierto");

@@ -3,8 +3,7 @@ $(document).ready(function() {
    $('#clock').countdown(fiveSeconds, {elapse: true})
     .on('update.countdown', function(event) {
     var $this = $(this);
-      $this.html(event.strftime('To end: <span>%H:%M:%S</span>'));
-    }
+    $this.html(event.strftime('To end: <span>%H:%M:%S</span>'));
   });
   $('#card').flip({
     axis: 'y', // 'x' para giro en eje X

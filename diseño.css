@@ -9,6 +9,11 @@ h1 {
   display: inline-block;
 }
 
+h2 {
+  text-align: left;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
 #card, #carddos, #cardtres, #cardcuatro, #cardcinco, #cardseis, #cardsiete, #cardocho, #cardnueve, #carddiez {
   width: 160px;
   height: 60px;

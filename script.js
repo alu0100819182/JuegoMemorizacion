@@ -1,8 +1,8 @@
 $(document).ready(function() {
     $("#DateCountdown").TimeCircles({
     "animation": "ticks",
-    "bg_width": 1.9,
-    "fg_width": 0.05,
+    "bg_width": 2.2,
+    "fg_width": 0.03666666666666667,
     "circle_bg_color": "#60686F",
     "time": {
         "Days": {
@@ -18,15 +18,15 @@ $(document).ready(function() {
         "Minutes": {
             "text": "Minutes",
             "color": "#fffbbb",
-            "show": true
+            "show": false
         },
         "Seconds": {
             "text": "Seconds",
-            "color": "#ff99f3",
+            "color": "#ff999f",
             "show": true
         }
     }
-  });
+    });
   $('#card').flip({
     axis: 'y', // 'x' para giro en eje X
     trigger: 'click', // 'hover': giro sobre tarjeta

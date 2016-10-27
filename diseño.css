@@ -1,5 +1,6 @@
 body {
   background-image: url("/Librerias-en-HTML/fruits.jpeg");
+  background-size: cover;
 }
 
 h1 {

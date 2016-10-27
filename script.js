@@ -58,6 +58,7 @@ function carta() {
   this.tipo = this.id;
   if(numeroGiro == 2) {
     console.log("hola");
+    document.getElementById(this.id).id = 'cereza';
   }
   else {
     giro = this.tipo;

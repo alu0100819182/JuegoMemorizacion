@@ -54,6 +54,7 @@ $(document).ready(function() {
 var parejas = 0;
 var giro = 'ninguna';
 var numeroGiro = 0;
+var acierto;
 
 function carta(enlace, tip) {
   var fruta = tip;
@@ -64,6 +65,7 @@ function carta(enlace, tip) {
     if((numeroGiro == 2) && (fruta = giro)) {
       console.log("Acierto");
       enlace.disabled = true;
+      acierto.disabled = true;
       numeroGiro = 0;
       parejas++;
     }
@@ -72,6 +74,7 @@ function carta(enlace, tip) {
         numeroGiro = 0;
       }else {
         giro = fruta;
+        acierto = enlance;
       }
     }
   }

@@ -8,7 +8,7 @@ h1 {
   font-family: 'Libre Franklin', sans-serif;
 }
 
-#card, #carddos, #cardtres, #cardcuatro, #cardcinco, #cardseis {
+#card, #carddos, #cardtres, #cardcuatro, #cardcinco, #cardsiete, #cardoco, #cardnueve, #carddiez {
   width: 160px;
   height: 60px;
   margin-left: 10px;
@@ -46,7 +46,26 @@ h1 {
   box-shadow: 0 0 10px RGBA(0,0,0, .5);
 }
 
-#manzana, #pera, #naranja, #platano {
+#cardsiete > img {
+  border: 15px solid #FFF;
+  box-shadow: 0 0 10px RGBA(0,0,0, .5);
+}
+
+#cardocho > img {
+  border: 15px solid #FFF;
+  box-shadow: 0 0 10px RGBA(0,0,0, .5);
+}
+
+#cardnueve > img {
+  border: 15px solid #FFF;
+  box-shadow: 0 0 10px RGBA(0,0,0, .5);
+}
+
+#carddiez > img {
+  border: 15px solid #FFF;
+  box-shadow: 0 0 10px RGBA(0,0,0, .5);
+}
+#manzana, #pera, #naranja, #platano, #kiwi {
   margin-top: 50px;
   margin-right: 70px;
   margin-left: 70px;

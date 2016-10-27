@@ -92,7 +92,8 @@ function carta(enlace, tip, carta) {
   var fruta = tip;
   var cartita = carta;
   numeroGiro++;
-  console.log(this.dataset.id);
+  var obj = document.getElementById(tip);
+  console.log(obj);
   if(parejas <= 5) {
     if((numeroGiro == 2) && (fruta == giro)) {
       console.log("Acierto");

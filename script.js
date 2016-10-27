@@ -106,7 +106,7 @@ function carta(enlace, tip, carta) {
         numeroGiro = 0;
         $(cartita).flip('toggle');
       }else {
-        var obj = document.getElementById(tip);
+        obj = enlace;
         giro = fruta;
       }
     }

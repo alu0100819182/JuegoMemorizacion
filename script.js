@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $(".example.stopwatch").TimeCircles();
+  $(".example.stopwatch").TimeCircles({count_past_zero: false});
   $(".start").click(function(){ $(".example.stopwatch").TimeCircles().start(); });
   $(".stop").click(function(){ $(".example.stopwatch").TimeCircles().stop(); });
   $(".restart").click(function(){ $(".example.stopwatch").TimeCircles().restart(); });    

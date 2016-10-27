@@ -92,12 +92,11 @@ function carta(enlace, tip, carta) {
   var fruta = tip;
   var cartita = carta;
   numeroGiro++;
-  var obj = document.getElementById(tip);
-  console.log(obj);
   if(parejas <= 5) {
     if((numeroGiro == 2) && (fruta == giro)) {
       console.log("Acierto");
       enlace.disabled = true;
+      obj.disabled = true;
       numeroGiro = 0;
       parejas++;
     }
@@ -106,6 +105,7 @@ function carta(enlace, tip, carta) {
         numeroGiro = 0;
         $(cartita).flip('toggle');
       }else {
+        var obj = document.getElementById(tip);
         giro = fruta;
       }
     }

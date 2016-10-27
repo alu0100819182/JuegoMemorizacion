@@ -52,16 +52,16 @@ $(document).ready(function() {
 });
 
 var parejas = 0;
-var giro;
+var giro = 'ninguna';
 var numeroGiro = 0;
 
-function carta(enlace) {
-  this.tipo = this.id;
-  console.log(this.tipo);;
-  console.log(this.id);
+function carta(enlace, tip) {
+  var fruta = tip;
+  console.log(fruta);
+  console.log(giro);
   numeroGiro++;
   if(parejas <= 5) {
-    if((numeroGiro == 2) && (this.tipo = giro)) {
+    if((numeroGiro == 2) && (fruta = giro)) {
       console.log("Acierto");
       enlace.disabled = true;
       numeroGiro = 0;
@@ -71,7 +71,7 @@ function carta(enlace) {
       if(numeroGiro == 2) {
         numeroGiro = 0;
       }else {
-        giro = this.tipo;
+        giro = fruta;
       }
     }
   }

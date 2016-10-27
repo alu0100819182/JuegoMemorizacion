@@ -58,7 +58,7 @@ function carta() {
   this.tipo = this.id;
   if(numeroGiro == 2) {
     console.log("hola");
-    this.id = 'cereza';
+    button.disabled = true;
   }
   else {
     giro = this.tipo;

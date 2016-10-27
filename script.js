@@ -91,7 +91,6 @@ var acierto;
 function carta(enlace, tip, carta) {
   var fruta = tip;
   var cartita = carta;
-  console.log(this.data-id);
   numeroGiro++;
   console.log(this.dataset.id);
   if(parejas <= 5) {

@@ -1,3 +1,32 @@
+var parejas = 0;
+var giro = 'ninguna';
+var numeroGiro = 0;
+var acierto;
+
+function carta(enlace, tip, carta) {
+  var fruta = tip;
+  var cartita = "'" + carta + "'";
+  numeroGiro++;
+  if(parejas <= 5) {
+    if((numeroGiro == 2) && (fruta == giro)) {
+      enlace.disabled = true;
+      obj.disabled = true;
+      numeroGiro = 0;
+      parejas++;
+    }
+    else {
+      if(numeroGiro == 2) {
+        numeroGiro = 0;
+        console.log(cartita);
+        $(cartita).flip('toggle');
+      }else {
+        obj = enlace;
+        giro = fruta;
+      }
+    }
+  }
+}
+
 $(document).ready(function() {
   $(".example.stopwatch").TimeCircles({
     count_past_zero: false,
@@ -82,32 +111,3 @@ $(document).ready(function() {
     speed: 500, // Velocidad del giro
   });
 });
-
-var parejas = 0;
-var giro = 'ninguna';
-var numeroGiro = 0;
-var acierto;
-
-function carta(enlace, tip, carta) {
-  var fruta = tip;
-  var cartita = "'" + carta + "'";
-  numeroGiro++;
-  if(parejas <= 5) {
-    if((numeroGiro == 2) && (fruta == giro)) {
-      enlace.disabled = true;
-      obj.disabled = true;
-      numeroGiro = 0;
-      parejas++;
-    }
-    else {
-      if(numeroGiro == 2) {
-        numeroGiro = 0;
-        console.log(cartita);
-        $(cartita).flip('toggle');
-      }else {
-        obj = enlace;
-        giro = fruta;
-      }
-    }
-  }
-}

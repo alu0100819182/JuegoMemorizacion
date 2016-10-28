@@ -18,7 +18,7 @@ function carta(enlace, tip, carta) {
       if(numeroGiro == 2) {
         numeroGiro = 0;
         console.log(cartita);
-        $(cartita).flip('toggle');
+        $(cartita).flip('true');
       }else {
         obj = enlace;
         giro = fruta;

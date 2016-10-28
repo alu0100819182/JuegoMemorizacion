@@ -94,7 +94,6 @@ function carta(enlace, tip, carta) {
   numeroGiro++;
   if(parejas <= 5) {
     if((numeroGiro == 2) && (fruta == giro)) {
-      console.log("Acierto");
       enlace.disabled = true;
       obj.disabled = true;
       numeroGiro = 0;
@@ -103,7 +102,7 @@ function carta(enlace, tip, carta) {
     else {
       if(numeroGiro == 2) {
         numeroGiro = 0;
-        console.log(cartita);
+        console.log('cartita');
         $(cartita).flip('toggle');
       }else {
         obj = enlace;

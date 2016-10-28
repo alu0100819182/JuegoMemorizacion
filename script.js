@@ -92,7 +92,6 @@ function carta(enlace, tip, carta) {
   var fruta = tip;
   var cartita = carta;
   numeroGiro++;
-  console.log(enlace.id);
   if(parejas <= 5) {
     if((numeroGiro == 2) && (fruta == giro)) {
       console.log("Acierto");
@@ -104,6 +103,7 @@ function carta(enlace, tip, carta) {
     else {
       if(numeroGiro == 2) {
         numeroGiro = 0;
+        console.log(cartita);
         $(cartita).flip('toggle');
       }else {
         obj = enlace;

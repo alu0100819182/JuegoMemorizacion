@@ -102,7 +102,7 @@ function carta(enlace, tip, carta) {
     else {
       if(numeroGiro == 2) {
         numeroGiro = 0;
-        console.log('cartita');
+        console.log(cartita);
         $(cartita).flip('toggle');
       }else {
         obj = enlace;

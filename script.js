@@ -90,7 +90,7 @@ var acierto;
 
 function carta(enlace, tip, carta) {
   var fruta = tip;
-  var cartita = carta;
+  var cartita = "'" + carta + "'";
   numeroGiro++;
   if(parejas <= 5) {
     if((numeroGiro == 2) && (fruta == giro)) {
